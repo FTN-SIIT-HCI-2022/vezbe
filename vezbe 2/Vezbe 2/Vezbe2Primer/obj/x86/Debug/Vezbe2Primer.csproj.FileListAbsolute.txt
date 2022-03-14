@@ -1,0 +1,24 @@
+H:\ftn\nastava\HCI-EO\2015\vezbe\v2\Primeri\Vezbe2Primer\Vezbe2Primer\bin\Debug\Vezbe2Primer.exe
+H:\ftn\nastava\HCI-EO\2015\vezbe\v2\Primeri\Vezbe2Primer\Vezbe2Primer\bin\Debug\Vezbe2Primer.pdb
+H:\ftn\nastava\HCI-EO\2015\vezbe\v2\Primeri\Vezbe2Primer\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.frmPrimer2.resources
+H:\ftn\nastava\HCI-EO\2015\vezbe\v2\Primeri\Vezbe2Primer\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.Properties.Resources.resources
+H:\ftn\nastava\HCI-EO\2015\vezbe\v2\Primeri\Vezbe2Primer\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.csproj.GenerateResource.Cache
+H:\ftn\nastava\HCI-EO\2015\vezbe\v2\Primeri\Vezbe2Primer\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.exe
+H:\ftn\nastava\HCI-EO\2015\vezbe\v2\Primeri\Vezbe2Primer\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.pdb
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\bin\Debug\Vezbe2Primer.exe
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\bin\Debug\Vezbe2Primer.pdb
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.frmPrimer2.resources
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.Properties.Resources.resources
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.exe
+C:\Users\DELL\Desktop\hci siit\SIIT 20-21\VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.pdb
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\bin\Debug\Vezbe2Primer.exe
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\bin\Debug\Vezbe2Primer.pdb
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.frmPrimer2.resources
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.Properties.Resources.resources
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.csproj.GenerateResource.cache
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.exe
+C:\Users\Jovana\Desktop\HCI - VEZBE\vezbe 2\Vezbe 2\Vezbe2Primer\obj\x86\Debug\Vezbe2Primer.pdb
