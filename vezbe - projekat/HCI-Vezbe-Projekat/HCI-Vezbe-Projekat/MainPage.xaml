@@ -7,8 +7,22 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainPage">
+    <Border Background="LightBlue" BorderThickness="2,2,2,2" BorderBrush="AntiqueWhite" CornerRadius="2"
+            HorizontalAlignment="Center" VerticalAlignment="Center" Padding="20">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" >
 
-    <Grid>
-        <Label> Hi from main page! This is a software for delivery food. </Label>
-    </Grid>
+
+            <Label Margin="10" >Sign in to SIITDelivery</Label>
+
+            <Label   >Username:</Label>
+            <TextBox  x:Name="username_tb"  ></TextBox>
+
+            <Label >Password:</Label>
+            <TextBox  x:Name="password_tb"></TextBox>
+
+            <Button Content="Sign in" x:Name="sign_in_btn" Margin="10" Click="sign_in_btn_Click"></Button>
+
+        </StackPanel>
+    </Border>
+
 </Page>

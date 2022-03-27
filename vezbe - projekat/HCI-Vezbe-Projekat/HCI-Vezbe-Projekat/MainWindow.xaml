@@ -6,29 +6,53 @@
         xmlns:local="clr-namespace:HCI_Vezbe_Projekat"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <DockPanel>
-        <Grid DockPanel.Dock="Top">
+    
+        <Grid  x:Name="grid">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition> 
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="10*"></RowDefinition>
             </Grid.RowDefinitions>
 
-            <Button Width="Auto" Height="Auto" Padding="2" Grid.Row="0" Grid.Column="0" Name="user_btn" Click="user_btn_Click">Users</Button>
-            <Button Width="Auto" Height="Auto" Padding="2" Grid.Row="0" Grid.Column="5" Name="home_btn" Click="home_btn_Click">Home</Button>
+            <Button Width="Auto" Height="Auto" Padding="2" Grid.Row="0" Grid.Column="5" Name="user_btn" Click="user_btn_Click">Users</Button>
+            <Button Grid.Row="0" Grid.Column="1" Background="Aquamarine" x:Name="res_btn" Click="res_btn_Click">
+                <Button.Content>
+                    Restaurant
+                </Button.Content>
+            </Button>
 
-            <Frame x:Name="page" Grid.Row="1" Grid.ColumnSpan="5" NavigationUIVisibility="Hidden"/>
+        <Button Content="Market" x:Name="market_btn" Click="market_btn_Click" Grid.Row="0" Grid.Column="2">
+            <Button.Background>
+                <SolidColorBrush Color="Pink"/>
+            </Button.Background>
+        </Button>
 
-        </Grid>
+        <Button Background="Magenta" x:Name="spec_offer" Grid.Row="0" Grid.Column="3" Click="spec_offer_Click">
+            <Button.Content>
+                Special Offer
+            </Button.Content>
+        </Button>
+
+        <Button Grid.Row="0" Grid.Column="4" x:Name="order_btn" Content="Order" Click="order_btn_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="Red"/>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Width="Auto" Height="Auto" Padding="2" Grid.Row="0" Grid.Column="0" Name="home_btn" Click="home_btn_Click">Home</Button>
+
+            <Frame x:Name="page" Grid.Row="1" Grid.ColumnSpan="6" NavigationUIVisibility="Hidden"/>
+     
+    </Grid>
         
 
       
-    </DockPanel>
+    
 </Window>

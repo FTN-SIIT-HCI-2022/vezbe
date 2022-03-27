@@ -1,5 +1,9 @@
-﻿using System;
+﻿using HCI_Vezbe_Projekat.mock_data;
+using HCI_Vezbe_Projekat.model;
+using HCI_Vezbe_Projekat.services;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +24,21 @@ namespace HCI_Vezbe_Projekat
     /// </summary>
     public partial class MainPage : Page
     {
-        public MainPage()
+
+        public MainPage(MockData mockData, Frame page)
         {
             InitializeComponent();
+        }
+
+
+
+
+
+
+        private void sign_in_btn_Click(object sender, RoutedEventArgs e)
+        {
+            
+           
         }
     }
 }

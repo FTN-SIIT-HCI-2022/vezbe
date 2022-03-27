@@ -23,5 +23,7 @@ namespace HCI_Vezbe_Projekat.model
         public string Description { get; set; } 
         public Address Address { get; set; }
 
+        //TO DO: lista radnog vremena 
+        // dan, pocetak, kraj
     }
 }

@@ -10,8 +10,8 @@ namespace HCI_Vezbe_Projekat.model
     {
         public Deliverer() : base(){}
 
-        public Deliverer(string username, string name, string surname, Address address, bool active) :
-            base(username, name, surname, address )
+        public Deliverer(string username, string password, string name, string surname, Address address, Role role,  bool active) :
+            base(username, password, name, surname, address, role )
         {
             Active = active; 
             ActiveOrders = new List<Order>();

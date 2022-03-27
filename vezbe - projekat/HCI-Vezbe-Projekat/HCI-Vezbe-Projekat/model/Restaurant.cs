@@ -13,6 +13,7 @@ namespace HCI_Vezbe_Projekat.model
         public List<Offer> Offers { get; set; }
 
         // razmisliti da li jos nesto moze da se doda
+         
     }
 
 

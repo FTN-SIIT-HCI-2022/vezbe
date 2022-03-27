@@ -8,7 +8,7 @@ namespace HCI_Vezbe_Projekat.model
 {
     public class Address
     {
-        Address(string street, string city, string postal_code, string country)
+        public Address(string street, string city, string postal_code, string country)
         {
             Street = street;    
             City = city;    

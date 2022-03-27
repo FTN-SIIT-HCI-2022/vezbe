@@ -23,3 +23,38 @@ C:\Users\Jovana\Desktop\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-w
 C:\Users\Jovana\Desktop\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\MainPage.baml
 C:\Users\Jovana\Desktop\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\UserPage.g.cs
 C:\Users\Jovana\Desktop\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\UserPage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\bin\Debug\net6.0-windows\HCI-Vezbe-Projekat.exe
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\bin\Debug\net6.0-windows\HCI-Vezbe-Projekat.deps.json
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\bin\Debug\net6.0-windows\HCI-Vezbe-Projekat.runtimeconfig.json
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\bin\Debug\net6.0-windows\HCI-Vezbe-Projekat.dll
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\bin\Debug\net6.0-windows\HCI-Vezbe-Projekat.pdb
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.csproj.AssemblyReference.cache
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\MainPage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat_MarkupCompile.cache
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat_MarkupCompile.lref
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\MainPage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.g.resources
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.AssemblyInfoInputs.cache
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.AssemblyInfo.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.csproj.CoreCompileInputs.cache
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.dll
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\refint\HCI-Vezbe-Projekat.dll
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.pdb
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\HCI-Vezbe-Projekat.genruntimeconfig.cache
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\ref\HCI-Vezbe-Projekat.dll
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\offer_page\SpecOfferHomePage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\order_page\OrderHomePage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\restaurant_page\RestaurantHome.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\store_page\MarketHomePage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\user_page\UserPage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\offer_page\SpecOfferHomePage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\order_page\OrderHomePage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\restaurant_page\RestaurantHome.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\store_page\MarketHomePage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\user_page\UserPage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\user_page\UserProfilePage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\user_page\UserProfilePage.baml

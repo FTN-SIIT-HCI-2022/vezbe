@@ -53,7 +53,7 @@ namespace HCI_Vezbe_Projekat {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HCI-Vezbe-Projekat;V1.0.0.0;component/userpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HCI-Vezbe-Projekat;component/userpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UserPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

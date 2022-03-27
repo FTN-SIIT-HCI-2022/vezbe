@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Jovana\Desktop\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\
 HCI_Vezbe_Projekat
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Jovana\Desktop\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\App.xaml
-3629022845
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\App.xaml
+8-546875549
 
-14143198295
+221672073683
 1941905061893
-MainPage.xaml;MainWindow.xaml;UserPage.xaml;
+MainPage.xaml;MainWindow.xaml;offer_page\SpecOfferHomePage.xaml;order_page\OrderHomePage.xaml;restaurant_page\RestaurantHome.xaml;store_page\MarketHomePage.xaml;user_page\UserPage.xaml;user_page\UserProfilePage.xaml;
 
 False
 
