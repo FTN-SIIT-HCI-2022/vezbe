@@ -22,22 +22,57 @@ namespace HCI_Vezbe_Projekat
     /// <summary>
     /// Interaction logic for MainPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class MainPage : Page, INotifyPropertyChanged
     {
+        private string _username; 
+        private string _password;   
 
+        public string Username
+        {
+            get { return _username; }
+            set
+            {
+                if(value != _username)
+                {
+                    _username = value;
+                    OnPropertyChanged("Username");
+                }
+            }
+        }
+
+        public string Password
+        {
+            get { return _password; }
+            set
+            {
+                if( value != _password)
+                {
+                  _password = value;
+                    OnPropertyChanged("Password");
+                }
+            }
+        }
+
+        private MockData data;
         public MainPage(MockData mockData, Frame page)
         {
             InitializeComponent();
+            this.DataContext = this;
+            data = mockData;
         }
 
+        public event PropertyChangedEventHandler? PropertyChanged;
 
-
-
-
-
+        protected virtual void OnPropertyChanged(string name)
+        {
+            if(PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(name));
+            }
+        }
         private void sign_in_btn_Click(object sender, RoutedEventArgs e)
         {
-            
+            MessageBox.Show("Uneli ste podatke: " + Username + " " + Password);
            
         }
     }

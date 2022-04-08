@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\App.xaml
-8-546875549
+12178224980
 
-24-1383819472
+28-1726252918
 1941905061893
-MainPage.xaml;MainWindow.xaml;offer_page\SpecOfferHomePage.xaml;order_page\OrderHomePage.xaml;restaurant_page\RestaurantHome.xaml;store_page\MarketHomePage.xaml;user_page\UserPage.xaml;user_page\UserProfilePage.xaml;
+MainPage.xaml;MainWindow.xaml;offer_page\AddSpecialOfferPage.xaml;offer_page\SpecOfferHomePage.xaml;order_page\AddNewOrderPage.xaml;order_page\OrderHomePage.xaml;restaurant_page\AddNewRestaurant.xaml;restaurant_page\RestaurantHome.xaml;store_page\AddNewMarketPage.xaml;store_page\MarketHomePage.xaml;user_page\UserPage.xaml;user_page\UserProfilePage.xaml;
 
-True
+False
 

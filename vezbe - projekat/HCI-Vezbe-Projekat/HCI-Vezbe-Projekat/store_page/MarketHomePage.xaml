@@ -9,6 +9,15 @@
       Title="MarketHomePage">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="add_store" Click="add_store_Click" HorizontalAlignment="Right">Add</Button>
         
     </Grid>
 </Page>

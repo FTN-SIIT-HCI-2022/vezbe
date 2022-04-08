@@ -58,3 +58,11 @@ C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Proj
 C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\user_page\UserPage.baml
 C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\user_page\UserProfilePage.g.cs
 C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\user_page\UserProfilePage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\restaurant_page\AddNewRestaurant.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\restaurant_page\AddNewRestaurant.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\store_page\AddNewMarketPage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\store_page\AddNewMarketPage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\offer_page\AddSpecialOfferPage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\offer_page\AddSpecialOfferPage.baml
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\order_page\AddNewOrderPage.g.cs
+C:\Users\Jovana\Desktop\vezbe\vezbe - projekat\HCI-Vezbe-Projekat\HCI-Vezbe-Projekat\obj\Debug\net6.0-windows\order_page\AddNewOrderPage.baml

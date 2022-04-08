@@ -9,7 +9,15 @@
       Title="RestaurantHome">
 
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
         <DataGrid>
         </DataGrid>
+        <Button x:Name="add_btn" Click="add_btn_Click" Content="Add" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="1"/>
     </Grid>
 </Page>

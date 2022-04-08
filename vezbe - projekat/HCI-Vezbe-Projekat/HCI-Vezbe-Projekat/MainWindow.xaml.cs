@@ -76,7 +76,7 @@ namespace HCI_Vezbe_Projekat
 
         private void res_btn_Click(object sender, RoutedEventArgs e)
         {
-            page.Content = new RestaurantHome();
+            page.Content = new RestaurantHome(data, page);
         }
 
         private void market_btn_Click(object sender, RoutedEventArgs e)
@@ -85,7 +85,7 @@ namespace HCI_Vezbe_Projekat
           //  button.Background = new SolidColorBrush(Color.FromRgb(10, 10,10));
             // Button button1 = new Button(); 
             // grid.Children.Add(button1);
-            page.Content = new MarketHomePage();
+            page.Content = new MarketHomePage(data, page );
           
         }
 
@@ -98,7 +98,7 @@ namespace HCI_Vezbe_Projekat
 
             Button btn = new Button();
             grid.Children.Add(btn);*/
-            page.Content = new SpecOfferHomePage();
+            page.Content = new SpecOfferHomePage(data, page);
         }
 
         private void order_btn_Click(object sender, RoutedEventArgs e)
@@ -109,7 +109,7 @@ namespace HCI_Vezbe_Projekat
             Button btn2 = new Button();
             btn2.Content = "iz koda";
             grid.Children.Add(btn2);*/
-            page.Content = new OrderHomePage();
+            page.Content = new OrderHomePage(data, page);
         }
     }
 }

@@ -14,11 +14,11 @@
 
             <Label Margin="10" >Sign in to SIITDelivery</Label>
 
-            <Label   >Username:</Label>
-            <TextBox  x:Name="username_tb"  ></TextBox>
+            <Label  Content="{Binding ElementName=username_tb, Path=Text}" ></Label>
+            <TextBox  x:Name="username_tb" Text="{Binding Path=Username, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" ></TextBox>
 
             <Label >Password:</Label>
-            <TextBox  x:Name="password_tb"></TextBox>
+            <TextBox  x:Name="password_tb" Text="{Binding Path=Password, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"></TextBox>
 
             <Button Content="Sign in" x:Name="sign_in_btn" Margin="10" Click="sign_in_btn_Click"></Button>
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HCI_Vezbe_Projekat.mock_data;
+using HCI_Vezbe_Projekat.offer_page;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,20 @@ namespace HCI_Vezbe_Projekat
     /// </summary>
     public partial class SpecOfferHomePage : Page
     {
-        public SpecOfferHomePage()
+        MockData data;
+        Frame page_frame;
+        public SpecOfferHomePage(MockData mockData, Frame page )
         {
             InitializeComponent();
+            data = mockData;
+            page_frame = page;
+            this.DataContext = data;
+        }
+
+        private void btn_add_Click(object sender, RoutedEventArgs e)
+        {
+            page_frame.Content = new AddSpecialOfferPage(data, page_frame);
+            
         }
     }
 }

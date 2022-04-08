@@ -9,6 +9,11 @@
       Title="OrderHomePage">
 
     <Grid>
-        <Frame x:Name="order_home_frame"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="btn_add"  HorizontalAlignment="Center" Padding="2" Click="btn_add_Click" Content="Add"/>
+        <Frame Grid.Row="1" x:Name="order_home_frame"/>
     </Grid>
 </Page>

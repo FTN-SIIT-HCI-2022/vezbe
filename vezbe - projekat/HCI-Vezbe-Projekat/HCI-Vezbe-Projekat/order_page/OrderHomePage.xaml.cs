@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HCI_Vezbe_Projekat.mock_data;
+using HCI_Vezbe_Projekat.order_page;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,18 @@ namespace HCI_Vezbe_Projekat
     /// </summary>
     public partial class OrderHomePage : Page
     {
-        public OrderHomePage()
+        MockData data;
+        Frame frame_page;
+        public OrderHomePage(MockData mockData, Frame page)
         {
             InitializeComponent();
+            data = mockData;
+            frame_page = page;
+        }
+
+        private void btn_add_Click(object sender, RoutedEventArgs e)
+        {
+            frame_page.Content = new AddNewOrderPage(data, frame_page);
         }
     }
 }

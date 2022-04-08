@@ -10,6 +10,18 @@
     <Compile Update="MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="offer_page\AddSpecialOfferPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="order_page\AddNewOrderPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="restaurant_page\AddNewRestaurant.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="store_page\AddNewMarketPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="store_page\MarketHomePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +46,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="offer_page\AddSpecialOfferPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="order_page\AddNewOrderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="restaurant_page\AddNewRestaurant.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="store_page\AddNewMarketPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="store_page\MarketHomePage.xaml">
