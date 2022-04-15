@@ -9,6 +9,17 @@
       Title="UserPage">
 
     <Grid>
-        <Label> User page!! </Label>
+        <DataGrid ItemsSource="{Binding Path=UserList.Values}" AutoGenerateColumns="False"  AutoGeneratingColumn="DataGrid_AutoGeneratingColumn" SelectionMode="Single" SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Surname" Binding="{Binding Surname}"/>
+
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Address}"/>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
     </Grid>
 </Page>

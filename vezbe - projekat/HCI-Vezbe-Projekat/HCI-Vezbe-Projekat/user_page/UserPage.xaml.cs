@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HCI_Vezbe_Projekat.mock_data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,25 @@ namespace HCI_Vezbe_Projekat
     /// </summary>
     public partial class UserPage : Page
     {
-        public UserPage()
+        MockData data;
+        Frame page;
+        public UserPage(MockData mock, Frame frame)
         {
             InitializeComponent();
+            data = mock;    
+            page = frame;
+            DataContext = data;
+        }
+
+        private void DataGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if(e.Column.Header.ToString() == "Password")
+            {
+                e.Column.Visibility = Visibility.Hidden;
+            }else if(e.Column.Header.ToString() == "UserName")
+            {
+                e.Column.Header = "User name";
+            }
         }
     }
 }

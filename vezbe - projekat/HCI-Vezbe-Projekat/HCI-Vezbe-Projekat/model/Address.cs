@@ -20,5 +20,10 @@ namespace HCI_Vezbe_Projekat.model
         public string PostalCode { get; set; }
         public string Country { get; set; }
 
+        public override string ToString()
+        {
+            return Street + ", " + City; 
+        }
+
     }
 }

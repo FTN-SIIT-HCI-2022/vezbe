@@ -51,10 +51,10 @@ namespace HCI_Vezbe_Projekat
                 // neko je ulogovan 
                 if (data.LoginUser.Role == model.Role.CLIENT || data.LoginUser.Role == model.Role.DELIVERER)
                 {
-                    page.Content = new UserProfilePage();
+                    page.Content = new UserProfilePage(data, page);
                 }else
                 {
-                    page.Content = new UserPage();
+                    page.Content = new UserPage(data, page);
                 }
             }
             

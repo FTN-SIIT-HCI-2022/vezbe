@@ -29,11 +29,26 @@ namespace HCI_Vezbe_Projekat
             InitializeComponent();
             data = mockData;
             page_frame = frame;
+            DataContext = data.Stores;
         }
 
         private void add_store_Click(object sender, RoutedEventArgs e)
         {
             page_frame.Content = new AddNewMarketPage(data, page_frame);
+        }
+
+        private void DataGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if(e.Column.Header.ToString() == "StoreType")
+            {
+                e.Column.Header = "Store type";
+            }else if(e.Column.Header.ToString() == "Offers")
+            {
+                e.Column.Visibility = Visibility.Hidden;
+            }else if(e.Column.Header.ToString() == "BusinessHours")
+            {
+                e.Column.Visibility = Visibility.Hidden;
+            }
         }
     }
 }

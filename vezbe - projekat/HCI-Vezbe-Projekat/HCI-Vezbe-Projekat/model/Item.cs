@@ -10,6 +10,11 @@ namespace HCI_Vezbe_Projekat.model
     public class Item
     {
 
+        public Item(string n, string d)
+        {
+            Name = n;
+            Description = d;
+        }
         public string Name { get; set; }    
         public string Description { get; set; }
        

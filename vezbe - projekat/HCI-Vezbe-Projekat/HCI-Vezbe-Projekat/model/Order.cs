@@ -10,6 +10,19 @@ namespace HCI_Vezbe_Projekat.model
     public class Order : INotifyPropertyChanged
     {
         public Order() { }
+
+        public Order(string name, User user, Address address, Place place, List<Item> items, decimal total, DateTime dateTime, OrderState orderState)
+        {
+            Name = name;
+            User = user;
+            Address = address;
+            Place = place;
+            Items = items;
+            Total = total;
+            DateTime = dateTime;
+            OrderState = orderState;
+        }
+
         private string _name;
         public string Name { get
             { return _name; }
@@ -44,6 +57,6 @@ namespace HCI_Vezbe_Projekat.model
 
     public enum OrderState
     {
-
+        WAIT, TAKE_ORDER, DELIVERED
     }
 }

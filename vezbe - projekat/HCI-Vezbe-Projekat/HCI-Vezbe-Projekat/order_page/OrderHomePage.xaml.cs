@@ -29,11 +29,20 @@ namespace HCI_Vezbe_Projekat
             InitializeComponent();
             data = mockData;
             frame_page = page;
+            DataContext = data.Orders;
         }
 
         private void btn_add_Click(object sender, RoutedEventArgs e)
         {
             frame_page.Content = new AddNewOrderPage(data, frame_page);
+        }
+
+        private void DataGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if(e.Column.Header.ToString() == "OrderState")
+            {
+                e.Column.Header = "Order state";
+            }
         }
     }
 }

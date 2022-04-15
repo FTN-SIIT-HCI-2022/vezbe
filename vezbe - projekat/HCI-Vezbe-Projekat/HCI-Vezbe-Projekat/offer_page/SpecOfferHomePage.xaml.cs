@@ -37,5 +37,13 @@ namespace HCI_Vezbe_Projekat
             page_frame.Content = new AddSpecialOfferPage(data, page_frame);
             
         }
+
+        private void DataGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if(e.Column.Header.ToString() == "Items")
+            {
+                e.Column.Visibility = Visibility.Hidden;
+            }
+        }
     }
 }

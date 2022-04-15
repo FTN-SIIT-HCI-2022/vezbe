@@ -23,6 +23,6 @@
         <TextBox Grid.Column="1" x:Name="tb_name"
                  Text="{Binding Path=Name, UpdateSourceTrigger=LostFocus}"></TextBox>
         <TextBox x:Name="new_tb"/>
-        <TextBlock Grid.Column="2" Text="{Binding ElementName=tb_name, Path=Text}"/>
+        <TextBlock Grid.Column="2" Text="{Binding  Path=Name}"/>
     </Grid>
 </Page>

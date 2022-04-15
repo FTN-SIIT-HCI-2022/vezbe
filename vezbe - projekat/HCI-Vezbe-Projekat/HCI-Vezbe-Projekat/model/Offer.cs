@@ -9,11 +9,24 @@ namespace HCI_Vezbe_Projekat.model
 {
     public class Offer : INotifyPropertyChanged
     {
-       // ponuda odnosi se na listu itema i cenu 
-       public List<Item> Items { get; set; }
+        // ponuda odnosi se na listu itema i cenu 
+
+        public Offer() { }
+
+        public Offer(List<Item> items, string name, double price, string d) { 
+            Items = items;
+            Name = name;
+            Price = price;
+            Description = d;
+        }
+
+        
+
+        public List<Item> Items { get; set; }
 
         private string _name;
         private double _price;
+       public string Description { get; set; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
 

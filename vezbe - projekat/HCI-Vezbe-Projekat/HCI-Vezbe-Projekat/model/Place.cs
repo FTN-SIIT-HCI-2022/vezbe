@@ -12,11 +12,12 @@ namespace HCI_Vezbe_Projekat.model
         public Place()
         {
         }
-        public Place(string name, string description, Address address)
+        public Place(string name, string description, Address address, List<BusinessHours> businessHours)
         {
             Name = name;
             Description = description;
             Address = address;
+            BusinessHours = businessHours;
         }
 
         //radnja koja moze da bude prodavnica ili restoran, klijenti iz njih mogu da narucuju
@@ -58,5 +59,7 @@ namespace HCI_Vezbe_Projekat.model
 
         //TO DO: lista radnog vremena 
         // dan, pocetak, kraj
+        public List<BusinessHours> BusinessHours { get; set; }
     }
+
 }

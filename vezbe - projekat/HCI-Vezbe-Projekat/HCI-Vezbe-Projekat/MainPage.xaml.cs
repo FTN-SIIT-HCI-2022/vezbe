@@ -1,6 +1,7 @@
 ﻿using HCI_Vezbe_Projekat.mock_data;
 using HCI_Vezbe_Projekat.model;
 using HCI_Vezbe_Projekat.services;
+using HCI_Vezbe_Projekat.user_page;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,8 +26,8 @@ namespace HCI_Vezbe_Projekat
     public partial class MainPage : Page, INotifyPropertyChanged
     {
         private string _username; 
-        private string _password;   
-
+        private string _password;
+        private UserService userService;
         public string Username
         {
             get { return _username; }
@@ -54,11 +55,14 @@ namespace HCI_Vezbe_Projekat
         }
 
         private MockData data;
+        Frame frame_page;
         public MainPage(MockData mockData, Frame page)
         {
             InitializeComponent();
             this.DataContext = this;
             data = mockData;
+            userService = new UserService();
+            frame_page = page;
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -73,7 +77,25 @@ namespace HCI_Vezbe_Projekat
         private void sign_in_btn_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Uneli ste podatke: " + Username + " " + Password);
-           
+            //pozvacemo funkciju iz servisa 
+            MessageBox.Show("Uneli ste podatke: " + Username + " " + Password);
+            bool isLogin = userService.login(Username, Password, data);
+
+
+            if (isLogin == false)
+            {
+                MessageBox.Show("Incorrect username or password.");
+            }
+            else
+            {
+
+                MessageBox.Show("Successful login - " + data.LoginUser.Name + " " + data.LoginUser.Surname);
+                frame_page.Content = new UserProfilePage(data, frame_page);
+
+            }
+
+
+
         }
     }
 }

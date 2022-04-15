@@ -30,12 +30,28 @@ namespace HCI_Vezbe_Projekat
             InitializeComponent();
             data = mockData;
             page_frame = frame;
+            DataContext = data;
         }
 
         private void add_btn_Click(object sender, RoutedEventArgs e)
         {
             //otvaramo stranicu za dodavanje novog restorana 
             page_frame.Content = new AddNewRestaurant(data, page_frame);
+        }
+
+        private void DataGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            if(e.Column.Header.ToString() == "RestaurantType")
+            {
+                e.Column.Header = "Restaurant type";
+            }else if(e.Column.Header.ToString() == "Offers")
+            {
+                e.Column.Visibility = Visibility.Hidden;
+            }
+            else if (e.Column.Header.ToString() == "BusinessHours")
+            {
+                e.Column.Visibility = Visibility.Hidden;
+            }
         }
     }
 }

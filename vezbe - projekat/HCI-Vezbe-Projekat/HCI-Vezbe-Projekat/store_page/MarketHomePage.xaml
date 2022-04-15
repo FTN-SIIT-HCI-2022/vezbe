@@ -18,6 +18,30 @@
         </Grid.RowDefinitions>
 
         <Button x:Name="add_store" Click="add_store_Click" HorizontalAlignment="Right">Add</Button>
-        
+
+        <DataGrid Grid.Row="1" ItemsSource="{Binding}" 
+                  AutoGenerateColumns="False"
+                  AutoGeneratingColumn="DataGrid_AutoGeneratingColumn"
+                  SelectionMode="Single" SelectionUnit="FullRow"
+                  FrozenColumnCount="2" HeadersVisibility="Column"
+                  AlternatingRowBackground="AliceBlue" AlternationCount="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
+                <DataGridTemplateColumn Header="Edit">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="edit" Content="Edit"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <DataGrid ItemsSource="{Binding Path=BusinessHours}"/>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+            
+        </DataGrid>
     </Grid>
 </Page>

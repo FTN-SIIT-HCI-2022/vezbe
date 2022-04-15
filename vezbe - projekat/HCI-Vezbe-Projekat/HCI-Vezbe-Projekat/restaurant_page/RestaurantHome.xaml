@@ -16,8 +16,27 @@
             <RowDefinition Height="10*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <DataGrid>
+
+        <DataGrid ItemsSource="{Binding Path=Restaurants}"
+                  AutoGenerateColumns="True"
+                  AutoGeneratingColumn="DataGrid_AutoGeneratingColumn"
+                  SelectionMode="Single" SelectionUnit="FullRow"
+                  FrozenColumnCount="2"
+                  AlternatingRowBackground="Lime"
+                  AlternationCount="2">
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <DataGrid ItemsSource="{Binding BusinessHours}"/>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
         </DataGrid>
+        <!--     <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}"/>
+                <DataGridTextColumn Header="Address" Binding="{Binding Address.Street}"/>
+            </DataGrid.Columns> -->
+        
+
         <Button x:Name="add_btn" Click="add_btn_Click" Content="Add" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="1"/>
     </Grid>
 </Page>

@@ -14,6 +14,13 @@
             <RowDefinition Height="10*"></RowDefinition>
         </Grid.RowDefinitions>
         <Button x:Name="btn_add"  HorizontalAlignment="Center" Padding="2" Click="btn_add_Click" Content="Add"/>
-        <Frame Grid.Row="1" x:Name="order_home_frame"/>
+        <DataGrid Grid.Row="1" ItemsSource="{Binding}"
+                  AutoGenerateColumns="True"
+                  AutoGeneratingColumn="DataGrid_AutoGeneratingColumn">
+           <!-- <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="User" Binding="{Binding User.Name}"/>
+            </DataGrid.Columns> -->
+        </DataGrid>
     </Grid>
 </Page>
